@@ -1,0 +1,23 @@
+{
+  "name": "real_time_comment_system",
+  "version": "1.0.0",
+  "description": "this application is about the real time comment system. user can see the other using typing.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "comment"
+  ],
+  "author": "vopesh chandra chamoli (vicky)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.24",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
